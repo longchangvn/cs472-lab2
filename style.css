@@ -71,9 +71,10 @@ p::first-letter {
     font-size: 1.5em;
 }
 
-.title{
+.title {
     color: #457b9d;
 }
+
 .director {
     font-family: "Courier New", Georgia;
     font-style: italic;
@@ -102,18 +103,20 @@ a {
 }
 
 .info-lbl {
-
-    color: #e63946;
+    font-weight: bold;
+    color: #2a9d8f;
 }
 
 .info-val {
     text-indent: 2%;
 }
-.movie:hover{
+
+.movie:hover {
     border: 1px solid red;
 }
-.movie:hover .mov-title{
-background-color:#457b9d ;
-color: #f1faee;
-font-size: 1.5em;
+
+.movie:hover .mov-title {
+    background-color: #457b9d;
+    color: #f1faee;
+    font-size: 1.5em;
 }
