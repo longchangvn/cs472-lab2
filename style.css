@@ -1,0 +1,31 @@
+.my-name{
+color:blue;
+}
+.chars{
+    font-weight: bold;
+    color:gold;
+}
+.title{
+
+}
+.note{
+    font-style: italic;
+}
+.actor{
+
+}
+.mov-thumb{
+
+}
+.card{
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+}
+.mod-img{
+    width:200px;
+    height:auto
+}
+.people{
+    text-transform: uppercase;
+}
