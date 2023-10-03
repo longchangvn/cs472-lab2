@@ -10,6 +10,7 @@
 .chars {
     font-weight: bold;
     color: gold;
+    font-size: 1.5em;
 }
 
 .title {}
@@ -23,9 +24,23 @@
 .mov-thumb {}
 
 .card {
-    width: 30vw;
-    height: 30vh;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    display: inline-block;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.card-img {
+    text-align: center;
+    text-justify: middle;
+    width: 300px;
+    height: 100px;
 }
 
 .mod-img {
@@ -39,13 +54,15 @@
 
 }
 
-.copyright{
+.copyright {
     text-align: center;
 }
-p{
+
+p {
     margin: 50px;
 }
-.director{
-    font-family: "Courier New",Georgia;
+
+.director {
+    font-family: "Courier New", Georgia;
     font-style: italic;
 }
