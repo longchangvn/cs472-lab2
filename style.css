@@ -2,6 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 5%;
+}
+
+html {
+    background-color: #f1faee;
+}
+
 .my-name {
     color: blue;
     font-family: Verdana;
@@ -9,7 +17,7 @@
 
 .chars {
     font-weight: bold;
-    color: gold;
+    color: #e63946;
     font-size: 1.5em;
 }
 
@@ -24,9 +32,6 @@
 .mov-thumb {}
 
 .card {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
     display: inline-block;
 }
 
@@ -59,10 +64,56 @@
 }
 
 p {
-    margin: 50px;
+    margin: 20px;
 }
 
+p::first-letter {
+    font-size: 1.5em;
+}
+
+.title{
+    color: #457b9d;
+}
 .director {
     font-family: "Courier New", Georgia;
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* movie */
+.info {
+    display: none;
+}
+
+.movie:hover .info {
+    display: block;
+}
+
+.mov-list {
+    list-style-type: decimal;
+}
+
+.mov-info {
+    font-size: .8em;
+    font-family: Georgia;
+}
+
+.info-lbl {
+
+    color: #e63946;
+}
+
+.info-val {
+    text-indent: 2%;
+}
+.movie:hover{
+    border: 1px solid red;
+}
+.movie:hover .mov-title{
+background-color:#457b9d ;
+color: #f1faee;
+font-size: 1.5em;
 }
